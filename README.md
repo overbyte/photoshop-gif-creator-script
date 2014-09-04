@@ -5,23 +5,32 @@ Photoshop script to create an optimised gif from a series of layers in a psd. Us
 
 ## How to install ##
 
-* Put the GifCreator.jsx into <pre>C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Presets\Scripts<pre> (Note: you may have a different version of photoshop so put it in the version you use)
-* Load the <pre>BannerActions.atn</pre> file using the Actions palette
-* The path to the script may have to be updated by double-clicking on <pre>BannerActions:useScript:Scripts</pre> and setting the filepath for the script
+* Put the GifCreator.jsx into `C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Presets\Scripts` (Note: you may have a different version of photoshop so put it in the version you use)
+* Load the `BannerActions.atn` file using the Actions palette
+* The path to the script may have to be updated by double-clicking on `BannerActions:useScript:Scripts` and setting the filepath for the script
 ![Update script path](/img/grab-5.png)
 
 ## Usage guide ##
 
 This will guide you through a series of steps to create the gif:
+
 * Select the area that the gif will be created from
-* You should run the action from the actions palette by using the <pre>useScript</pre> action in the newly-added <pre>BannerActions</pre> folder. A shortcut of Ctrl-F12 has been added.
+
+* You should run the action from the actions palette by using the `useScript` action in the newly-added `BannerActions` folder. A shortcut of Ctrl-F12 has been added.
+
 * Add the path to the directory you wish to save the files in
+
 ![Add filepath](/img/grab-0.png)
+
 * Add the desired filename - this will have the size appended to it
+
 ![Add filename](/img/grab-1.png)
+
 * Add the desired number of loops (default is 3)
+
 ![Add loops](/img/grab-2.png)
 * Add the target filesize
+
 ![Add filesize](/img/grab-3.png)
 
 This will store this information and will pre-populate the pop-up next time you use it which is useful for doing multiple gifs in the same folder as you can use the same path and filename and the script will automatically add the size as a differentiator. 
