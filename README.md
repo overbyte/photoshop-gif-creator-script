@@ -14,7 +14,7 @@ Photoshop script to create an optimised gif from a series of layers in a psd. Us
 
 This will guide you through a series of steps to create the gif:
 
-* Select the area that the gif will be created from
+* Select the area in the Photoshop file that the gif will be created from
 
 * You should run the action from the actions palette by using the `useScript` action in the newly-added `BannerActions` folder. A shortcut of Ctrl-F12 has been added.
 
@@ -46,5 +46,9 @@ The script will then attempt to save a gif at the desired filesize by reducing t
 * Set the desired size of the marquee tool in the tool options and use to set the size / position of the selection
 ![Marquee Tool Options](/img/grab-4.png)
 * Run the script using the steps above
+* Repeat for all of the Flash banners in the Photoshop file
 
 ## Useful Links ##
+* [Guide for installing Photoshop scripts](http://speedscraps.blogspot.co.uk/2010/04/installing-scripts-photoshop.html)
+* [Adobe's Photoshop Scripting Reference](http://www.adobe.com/devnet/photoshop/scripting.html)
+* [ps-scripts.com Forum](http://www.ps-scripts.com/bb/)
